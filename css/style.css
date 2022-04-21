@@ -408,7 +408,7 @@ input {
     width: 210px;
 }
 
-.uzi, .palmira img {
+.uzi-dom, .palmira img {
     width: 116px;
 }
 
@@ -427,7 +427,7 @@ input {
     justify-content: center;
 }
 
-.uzi {
+.uzi-dom {
     display: flex;
     background: linear-gradient(110.87deg, rgba(0, 217, 224, 0.05) 0%, rgba(255, 255, 255, 0.05) 65.76%);
     border-radius: 10px;
