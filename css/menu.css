@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    width: 1173px;
     margin: 0 auto;
 }
 
@@ -11,7 +11,7 @@
     margin: 0;
 }
 .nav-item:not(:first-child) {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .nav-item {
     position: relative;
@@ -92,6 +92,7 @@
     visibility: hidden;
 }
 .icon i {
+    width: 22px;
     padding: 20px 0;
     margin: 0 20px;
     color: #878B90;
