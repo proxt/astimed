@@ -160,8 +160,11 @@
     .container {
         padding: 20px 10px!important;
     }
-    .sitilab, .uzi-dom, .nmzo, .uzi, .palmira {
+    .sitilab, .uzi-dom, .nmzo, .palmira {
         width: 100%!important;
+    }
+    .actions-block h4 {
+        top: 25%!important;
     }
     .block-partner {
         padding-bottom: 10px!important;
