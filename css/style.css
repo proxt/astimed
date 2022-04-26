@@ -290,6 +290,10 @@ header {
     font-size: 24px;
     color: #2881DD;
 }
+
+.containers {
+    padding: 0 100px 45px;
+}
 .actions-blocks, .form-blocks, .block-partners {
     display: flex;
     justify-content: space-between;
@@ -677,3 +681,26 @@ footer {
     padding-left: 20%;
 }
 
+.info-uslugs {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.one-uslugs {
+    padding-right: 85px;
+    margin-left: -8px;
+}
+
+.osnova-uslugs {
+    background: rgba(253, 253, 253, 0.7);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0 100px 45px;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
