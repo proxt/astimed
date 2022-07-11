@@ -121,6 +121,11 @@
     .grid {
         grid-template-columns: 100%!important;
     }
+    .grid p {
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 28px!important;
+    }
     .btn0 {
         background: #F3A125!important;
     }
@@ -152,10 +157,10 @@
         padding-top: 10px!important;
     }
     .container h2 {
-        font-size: 16px!important;
+        font-size: 20px!important;
     }
     .container a {
-        font-size: 12px!important;
+        font-size: 16px!important;
     }
     .container {
         padding: 20px 10px!important;
