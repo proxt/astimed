@@ -222,7 +222,7 @@
         width: 90% !important;
         padding: 20px 10px!important;
     }
-    .one, .two {
+    .one, .two, .three, .four {
         width: 100% !important;
         margin: 10px 0!important;
     }
@@ -249,6 +249,7 @@
         margin: 20px 0!important;
         box-shadow: none!important;
     }
+
 
 }
 @media (min-width: 1019px) {
@@ -292,6 +293,22 @@
     }
     .vector2 {
         width: 60px;
+    }
+    .contacts {
+        display: block!important;
+        justify-content: center!important;
+        text-align: center;
+    }
+    .mail-contacts, .app-contacts, .gram-contacts {
+        width: 100%!important;
+        margin: 20px 0 ;
+    }
+    .number-contacts {
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .one-uslugs img, .two-uslugs img {
+        width: 100%;
     }
 }
 

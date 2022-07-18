@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+    <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf04621241.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="overlay"></div>
+<header>
+    <div class="info">
+        <button class="burger" aria-label="Открыть меню">
+            <span></span>
+        </button>
+        <div class="logo"><img src="img/logo.svg" alt="Астимед"></div>
+        <div class="adress">
+            <div class="adr">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="light">ул. Мебельная<br>д. 47, корп. 1 лит А
+                </p>
+            </div>
+            <p><i class="fa-solid fa-envelope"></i><span class="blus">astimed.spb@gmail.com</span></p>
+        </div>
+        <div class="number">
+            <p class="ots"><i class="fa-solid fa-mobile-screen-button"></i><span class="blus">
+                8 (812) 983-42-39</span></p>
+            <p class="day"><i class="fa-solid fa-clock"></i><span class="blus">ПН-ПТ</span> 8:00-18:00 <span class="blus">СБ</span> 9:00-15:00</p>
+        </div>
+        <div class="order">
+            <button class="btn"><i class="fa-solid fa-phone"></i>
+                <p>Оставить заявку</p>
+            </button>
+        </div>
+    </div>
+    <nav class="nav header-nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/index.html" class="nav-link">Главная</a></li>
+            <li class="nav-item">
+                <a href="#" class="nav-link nav-link-drop">Прием в клинике</a>
+                <ul class="nav-list nav-list-dropdown dropdown-list">
+                    <li class="dropdown-list-item mobile-back"><a href="" class="dropdown-list-link mobile-back-link">Назад</a></li>
+                    <li class="dropdown-list-item"><a href="#" class="dropdown-list-link">Терапевт</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Невролог</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Гинеколог</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">УЗИ</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Рефлексотерапевт</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Манипуляции</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link nav-link-drop">Вызов на дом</a>
+                <ul class="nav-list nav-list-dropdown dropdown-list">
+                    <li class="dropdown-list-item mobile-back"><a href="" class="dropdown-list-link mobile-back-link">Назад</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Терапевт</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Невролог</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Гинеколог</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">УЗИ</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Рефлексотерапевт</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Манипуляции</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">СМАД</a></li>
+                    <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Холтер</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">COVID - 19</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Эпиляция и массаж</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Акции</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Цены</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+        </ul>
+        <div class="icon">
+            <a class="pl" id="specialButton" href="#"><i class="far fa-eye fa-2x dark"></i></a>
+            <a class="pl" target="_blank" href="https://wa.me/+78129834239"><i class="fab fa-whatsapp fa-2x dark"></i></a>
+            <a class="pl" target="_blank" href="https://t.me/AstimedSpb"><i class="fab fa-telegram fa-2x dark"></i></a>
+            <a class="pl" target="_blank" href="https://www.google.ru/maps/place/АстиМед/@59.994553,30.194802,17z/data=!3m1!4b1!4m5!3m4!1s0x469637cc9e3b2aa9:0x2cd9efe0640e4c27!8m2!3d59.994553!4d30.1969907"><i class="fas fa-map-marked-alt fa-2x dark"></i></a>
+        </div>
+    </nav>
+</header>
+<div class="container-head">
+    <div class="head-text">
+        <h1>Услуги рефлексотерапевта</h1>
+        <p>Рефлексотерапевт – это врач, который лечит заболевания внутренних органов и тканейс помощью стимуляции рефлексогенных точек организма мануально, физиотерапевтически и специальными иглами, а также реабилитирует пациентов после тяжелых операций, устраняет обострения хронических болезней.</p>
+        <br>
+        <p>В профессиональной деятельности рефлексотерапевт использует классическое иглоукалывание, акупрессуру, апипунктуру, воздействие температурой, магнитным полем, ультразвуком, вакуумом, аппликациями из лечебной грязи, водорослей, пиявками.</p>
+    </div>
+    <img src="img/uslugi/reflex.png" alt="">
+</div>
+<div class="container">
+    <h2>Цены на прием в клинике</h2>
+</div>
+<div class="price-uslugs">
+    <div class="one">
+        <a href="">Консультация - 1000₽</a>
+        <img src="img/vector/1.svg" alt="">
+    </div>
+    <div class="two">
+        <a href="">Иглотерапия - 1800₽</a>
+        <img src="img/vector/2.svg" alt="">
+    </div>
+</div>
+<div class="container">
+    <h2>Как понять, что мне нужно к рефлексотерапевту?</h2>
+</div>
+<div class=" containers">
+    <div class="plaski">
+        <div class="plas">
+            <h3>Болевые синдромы:</h3>
+            <br>
+            <p>- головные и лицевые боли,</p>
+            <p>- боль в спине, груди, шее, пояснице,</p>
+            <p>- боль в суставах и мышцах.</p>
+        </div>
+        <div class="plas">
+            <h3>Болезни суставов и позвоночника:</h3>
+            <br>
+            <p>- артрозы, артриты, периартриты и периартрозы,
+            </p>
+            <p>- шейный, поясничный, пояснично-крестцовый, грудной остеохондроз,
+            </p>
+            <p>- позвоночные грыжи</p>
+        </div>
+    </div>
+</div>
+<div class=" containers">
+    <div class="plaski">
+        <div class="plas">
+            <h3>Неврологические синдромы и болезни:</h3>
+            <br>
+            <p>- защемление нерва, ишиас,
+            </p>
+            <p>- невриты, невралгии,</p>
+            <p>- бессонница, неврозы, депрессии,
+            </p>
+            <p>- вегетососудистая дистония,
+            </p>
+            <p>- синдром хронической усталости.
+            </p>
+        </div>
+        <div class="plas">
+            <h3>Акупунктура применяется при:</h3>
+            <br>
+            <p>- заболевания желудочно-кишечного тракта,
+            </p>
+            <p>- бесплодие,
+            </p>
+            <p>- болезни мочеполовой системы,
+            </p>
+            <p>- кожные заболевания (дерматиты, экземы, псориаз),
+            </p>
+            <p>- заболевания дыхательной системы,
+            </p>
+            <p>- заболевания сердечно-сосудистой системы.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h2>Желаете проверить свое здоровье?</h2>
+</div>
+<div class="form-blocks">
+    <div class="form-block-text">
+        <p>Мы с радостью подскажем Вам к какому специалисту обратиться.
+            <br><br>Наши врачи проконсультируют Вас и назначат время приема или приедут на дом
+            <br><br>Заполните форму и мы Вам перезвоним!
+        </p>
+    </div>
+    <div class="form-block">
+        <form action="#" method="post">
+            <ul>
+                <li>
+                    <input type="text" placeholder="Ваше имя" id="name" name="user_name">
+                </li>
+                <li>
+                    <input type="phone" placeholder="Номер телефона" id="phone" name="user_mail">
+                </li>
+            </ul>
+            <div class="form-text">
+                <li class="form-button">
+                    <button class="btn">Оставить заявку</button>
+                </li>
+                <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c
+                    <a href="">политикой конфиденциальности</a>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <h2>Как проходит консультация рефлексотерапевта?</h2>
+</div>
+<div class="info-uslugs containers">
+    <div class="one-uslugs">
+        <img src="img/uslugi/reflex2.png" alt="">
+    </div>
+    <div class="two-uslugs">
+        <p>Во время посещения рефлексотерапевта врач знакомится с пациентом, выясняя его жалобы, образ жизни, историю настоящего заболевания и сопутствующих патологий. Затем врач осматривает больного, изучает характеристики акупунктурных точек. </p>
+        <br>
+        <p>После завершения ознакомления и осмотра врач-рефлексотерапевт разрабатывает и подбирает индивидуальную схему лечения для каждого пациента.</p>
+        <br>
+        <p>Оздоровление происходит через воздействие на активные точки организма. Воздействие на биологически активные точки пациента различается по силе, продолжительности и характеру. Точкой акупунктуры служит небольшой участок тела, который обладает особыми характеристиками. Таких точек насчитывается около тысячи, и они распределены по всей поверхности тела. </p>
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="img/logo.svg" alt="">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="">Лицензия</a></li>
+                    <li><a href="">Политика<br>конфиденциальности</a></li>
+                </ul>
+            </div>
+            <div class="footer-icon">
+                <a class="pl" id="specialButton" href="#"><i class="far fa-eye fa-2x dark"></i></a>
+                <a class="pl" target="_blank" href="https://wa.me/+78129834239"><i class="fab fa-whatsapp fa-2x dark"></i></a>
+                <a class="pl" target="_blank" href="https://t.me/AstimedSpb"><i class="fab fa-telegram fa-2x dark"></i></a>
+                <a class="pl" target="_blank" href="https://www.google.ru/maps/place/АстиМед/@59.994553,30.194802,17z/data=!3m1!4b1!4m5!3m4!1s0x469637cc9e3b2aa9:0x2cd9efe0640e4c27!8m2!3d59.994553!4d30.1969907"><i class="fas fa-map-marked-alt fa-2x dark"></i></a>
+            </div>
+        </div>
+        <div class="footer-link">
+            <ul>
+                <li><a href="">Главная</a></li>
+                <li><a href="">Прием в клинике</a></li>
+                <li><a href="">Вызов на дом</a></li>
+                <li><a href="">COVID - 19</a></li>
+                <li><a href="">Акции</a></li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <ul>
+                <li class="link-item"><a href="" class="link-active">Цены</a></li>
+                <li><a href="">Гинеколог</a></li>
+                <li><a href="">Терапевт</a></li>
+                <li><a href="">Невролог</a></li>
+                <li><a href="">Вызов на дом</a></li>
+                <li><a href="">Манипуляции</a></li>
+                <li><a href="">Рефлексотерапевт</a></li>
+                <li><a href="">УЗИ</a></li>
+                <li><a href="">СМАД</a></li>
+                <li><a href="">Холтер</a></li>
+            </ul>
+        </div>
+        <div class="footer-contacts">
+            <ul>
+                <li><a href="" class="link-active">Контакты</a></li>
+                <li><a href="">8 (812) 983-42-39</a></li>
+                <li><a href="">8 (812) 926-28-27</a></li>
+            </ul>
+            <p>г. Санкт-Петербург
+                <br>ул. Мебельная
+                <br>д. 47, корп. 1 лит А
+            </p>
+            <a href="" class="mailto">astimed.spb@gmail.com</a>
+        </div>
+    </div>
+    <div class="created">
+        <p>© 2020-2022 ООО МЦ Астимед. Все права защищены. Created by parsons.agency</p>
+        <div class="created-img">
+            <img src="img/created-img.png" alt="">
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body></html>

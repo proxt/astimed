@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+  <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+  <script src="https://kit.fontawesome.com/bf04621241.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="overlay"></div>
+<header>
+  <div class="info">
+    <button class="burger" aria-label="Открыть меню">
+      <span></span>
+    </button>
+    <div class="logo"><img src="img/logo.svg" alt="Астимед"></div>
+    <div class="adress">
+      <div class="adr">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="light">ул. Мебельная<br>д. 47, корп. 1 лит А
+        </p>
+      </div>
+      <p><i class="fa-solid fa-envelope"></i><span class="blus">astimed.spb@gmail.com</span></p>
+    </div>
+    <div class="number">
+      <p class="ots"><i class="fa-solid fa-mobile-screen-button"></i><span class="blus">
+                8 (812) 983-42-39</span></p>
+      <p class="day"><i class="fa-solid fa-clock"></i><span class="blus">ПН-ПТ</span> 8:00-18:00 <span class="blus">СБ</span> 9:00-15:00</p>
+    </div>
+    <div class="order">
+      <button class="btn"><i class="fa-solid fa-phone"></i>
+        <p>Оставить заявку</p>
+      </button>
+    </div>
+  </div>
+  <nav class="nav header-nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="/index.html" class="nav-link">Главная</a></li>
+      <li class="nav-item">
+        <a href="#" class="nav-link nav-link-drop">Прием в клинике</a>
+        <ul class="nav-list nav-list-dropdown dropdown-list">
+          <li class="dropdown-list-item mobile-back"><a href="" class="dropdown-list-link mobile-back-link">Назад</a></li>
+          <li class="dropdown-list-item"><a href="#" class="dropdown-list-link">Терапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Невролог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Гинеколог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">УЗИ</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Рефлексотерапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Манипуляции</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link nav-link-drop">Вызов на дом</a>
+        <ul class="nav-list nav-list-dropdown dropdown-list">
+          <li class="dropdown-list-item mobile-back"><a href="" class="dropdown-list-link mobile-back-link">Назад</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Терапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Невролог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Гинеколог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">УЗИ</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Рефлексотерапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Манипуляции</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">СМАД</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Холтер</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link">COVID - 19</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Эпиляция и массаж</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Акции</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Цены</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+    </ul>
+    <div class="icon">
+      <a class="pl" id="specialButton" href="#"><i class="far fa-eye fa-2x dark"></i></a>
+      <a class="pl" target="_blank" href="https://wa.me/+78129834239"><i class="fab fa-whatsapp fa-2x dark"></i></a>
+      <a class="pl" target="_blank" href="https://t.me/AstimedSpb"><i class="fab fa-telegram fa-2x dark"></i></a>
+      <a class="pl" target="_blank" href="https://www.google.ru/maps/place/АстиМед/@59.994553,30.194802,17z/data=!3m1!4b1!4m5!3m4!1s0x469637cc9e3b2aa9:0x2cd9efe0640e4c27!8m2!3d59.994553!4d30.1969907"><i class="fas fa-map-marked-alt fa-2x dark"></i></a>
+    </div>
+  </nav>
+</header>
+<div class="container-head">
+  <div class="head-text">
+    <h1>Услуги по СМАД</h1>
+    <p>СМАД – способ исследования работы сердца и сосудов, предполагающий контроль артериального давления пациента в течение 24 часов. Исследование подразумевает фиксацию на теле человека специального датчика и электронного прибора. Аппарат запрограммирован на измерение давления крови через определенные временные интервалы на протяжении суток и фиксацию результатов в памяти прибора.</p>
+    <p>Метод СМАД признан наиболее объективным способом контроля давления у пациентов. СМАД исключает получение неточных сведений при стандартном режиме диагностики давления в кабинете у врача.</p>
+  </div>
+  <img src="img/uslugi/smad.png" alt="">
+</div>
+<div class="container">
+  <h2>Цены на мониторинга артериального давления</h2>
+</div>
+<div class="price-uslugs centered">
+  <div class="accordion">
+
+    <details class="card">
+      <summary class="card-header card1">
+        <h2 class="mb-0">
+          <span class="btn btn-link">Инъекции первично</span>
+        </h2>
+      </summary>
+
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </details>
+
+    <details class="card">
+      <summary class="card-header card2">
+        <h2 class="mb-0">
+          <span class="btn btn-link">Инъекции повторно</span>
+        </h2>
+      </summary>
+
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </details>
+
+
+    <details class="card">
+      <summary class="card-header card3">
+        <h2 class="mb-0">
+          <span class="btn btn-link">Капельницы</span>
+        </h2>
+      </summary>
+
+      <div class="card-body">
+        <table>
+          <tr class="tr">
+            <th>№</th>
+            <th>Наименование услуг</th>
+            <th>Цена, руб.</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>УЗИ брахиоцефальных сосудов (внечерепные сосуды, идущие к головному мозгу)</td>
+            <td>1500</td>
+          </tr>
+        </table>
+      </div>
+    </details>
+
+  </div>
+</div>
+<div class="container">
+  <h2>СМАД на дому</h2>
+</div>
+<div class="info-uslugs containers">
+  <div class="one-uslugs">
+    <p>По желанию пациента провести диагностику можно без посещений клиники. В домашнем режиме обследования по указанному адресу пациента дважды выезжает медицинская сестра.
+    </p>
+    <br>
+    <p>При первом посещении медик устанавливает аппарат. На теле человека фиксируют специальные датчики, а на пояс прикрепляют компактный регистрирующий прибор. </p>
+    <br>
+    <p>Аппарат запрограммирован на измерение артериального давления каждые 20 минут в дневное время и каждые 40 минут – в ночное. Все полученные сведения записываются в памяти прибора.</p>
+    <br>
+    <p>При втором посещении медицинская сестра снимает и забирает устройство вместе с дневником пациента.</p>
+  </div>
+  <div class="two-uslugs">
+    <img src="img/uslugi/ter_home.png" alt="">
+  </div>
+</div>
+<div class="container">
+  <h2>СМАД в домашних условиях</h2>
+</div>
+<div class="info-uslugs containers">
+  <div class="one-uslugs">
+    <img src="img/uslugi/smad2.png" alt="">
+  </div>
+  <div class="two-uslugs">
+    <p>Задачей пациента на время исследования является ведение привычного образа жизни. Отказываться от походов на работу и занятий спортом, корректировать режим дня и приема препаратов не нужно.
+    </p>
+    <br>
+    <p>На протяжении 24 часов пациент должен вести дневник, в котором необходимо фиксировать:</p>
+    <br>
+    <p>- время отдыха и бодрствования</p>
+    <p>- любые виды деятельности</p>
+    <p>- время физических и эмоциональных нагрузок</p>
+    <p>- стрессовые ситуации</p>
+    <p>- употребление медикаментов</p>
+    <p>- изменение самочувствия</p>
+  </div>
+</div>
+<div class="container">
+  <h2>Готовы следить за своим здоровьем?</h2>
+</div>
+<div class="form-blocks">
+  <div class="form-block-text">
+    <p>Мы с радостью подскажем Вам к какому специалисту обратиться.
+      <br><br>Наши врачи проконсультируют Вас и назначат время приема или приедут на дом
+      <br><br>Заполните форму и мы Вам перезвоним!
+    </p>
+  </div>
+  <div class="form-block">
+    <form action="#" method="post">
+      <ul>
+        <li>
+          <input type="text" placeholder="Ваше имя" id="name" name="user_name">
+        </li>
+        <li>
+          <input type="phone" placeholder="Номер телефона" id="phone" name="user_mail">
+        </li>
+      </ul>
+      <div class="form-text">
+        <li class="form-button">
+          <button class="btn">Оставить заявку</button>
+        </li>
+        <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c
+          <a href="">политикой конфиденциальности</a>
+        </p>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="container">
+  <h2>Система мониторинга артериального давления (СМАД)</h2>
+</div>
+<div class="blocks-grid">
+  <div class="block1">
+    <p>Необходимость в автоматизированном измерении и фиксации показателей давления обусловлена низкой точностью результатов, полученных при обследовании в кабинете врача или при вызове специалиста на дом.
+      Самостоятельное снятие показателей пациентом также не исключает нарушений техники измерения и получения неточных сведений.</p>
+  </div>
+  <div class="block2">
+    <p>СМАД обеспечивает контроль давления у больного в состоянии покоя, при смене активности, а также в стрессовых ситуациях. Измерение проводится автоматически, что повышает точность результатов. Постановка диагноза, базирующаяся на объективных данных, снижает риск врачебной ошибки и позволяет вовремя выявить опасные заболевания.</p>
+  </div>
+  <div class="block3">
+    <p style="font-weight: 600">Основные показания для проведения суточного контроля:</p>
+    <br>
+    <p>- по желанию пациента в рамках профилактического обследования;</p>
+    <p>- эпизоды повышенного артериального давления;</p>
+    <p>- оценка эффективности медикаментозного лечения;</p>
+    <p>- необходимость подбора оптимального режима применения медикаментов;</p>
+    <p>- контроль влияния на артериальное давление препаратов для лечения другой патологии;</p>
+    <p>- выявление причин скачков давления;</p>
+    <p>- диагностики синдрома внезапного прекращения дыхания во сне (апноэ);</p>
+    <p>- подозрение на развитие преэклампсии у беременных;</p>
+    <p> - прием на работу, связанный с высоким профессиональным риском (летчики, машинисты, водители).</p>
+  </div>
+</div>
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="img/logo.svg" alt="">
+      <div class="footer-nav">
+        <ul>
+          <li><a href="">Лицензия</a></li>
+          <li><a href="">Политика<br>конфиденциальности</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon">
+        <a class="pl" id="specialButton" href="#"><i class="far fa-eye fa-2x dark"></i></a>
+        <a class="pl" target="_blank" href="https://wa.me/+78129834239"><i class="fab fa-whatsapp fa-2x dark"></i></a>
+        <a class="pl" target="_blank" href="https://t.me/AstimedSpb"><i class="fab fa-telegram fa-2x dark"></i></a>
+        <a class="pl" target="_blank" href="https://www.google.ru/maps/place/АстиМед/@59.994553,30.194802,17z/data=!3m1!4b1!4m5!3m4!1s0x469637cc9e3b2aa9:0x2cd9efe0640e4c27!8m2!3d59.994553!4d30.1969907"><i class="fas fa-map-marked-alt fa-2x dark"></i></a>
+      </div>
+    </div>
+    <div class="footer-link">
+      <ul>
+        <li><a href="">Главная</a></li>
+        <li><a href="">Прием в клинике</a></li>
+        <li><a href="">Вызов на дом</a></li>
+        <li><a href="">COVID - 19</a></li>
+        <li><a href="">Акции</a></li>
+      </ul>
+    </div>
+    <div class="footer-item">
+      <ul>
+        <li class="link-item"><a href="" class="link-active">Цены</a></li>
+        <li><a href="">Гинеколог</a></li>
+        <li><a href="">Терапевт</a></li>
+        <li><a href="">Невролог</a></li>
+        <li><a href="">Вызов на дом</a></li>
+        <li><a href="">Манипуляции</a></li>
+        <li><a href="">Рефлексотерапевт</a></li>
+        <li><a href="">УЗИ</a></li>
+        <li><a href="">СМАД</a></li>
+        <li><a href="">Холтер</a></li>
+      </ul>
+    </div>
+    <div class="footer-contacts">
+      <ul>
+        <li><a href="" class="link-active">Контакты</a></li>
+        <li><a href="">8 (812) 983-42-39</a></li>
+        <li><a href="">8 (812) 926-28-27</a></li>
+      </ul>
+      <p>г. Санкт-Петербург
+        <br>ул. Мебельная
+        <br>д. 47, корп. 1 лит А
+      </p>
+      <a href="" class="mailto">astimed.spb@gmail.com</a>
+    </div>
+  </div>
+  <div class="created">
+    <p>© 2020-2022 ООО МЦ Астимед. Все права защищены. Created by parsons.agency</p>
+    <div class="created-img">
+      <img src="img/created-img.png" alt="">
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body></html>

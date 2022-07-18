@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+  <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+  <script src="https://kit.fontawesome.com/bf04621241.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="overlay"></div>
+<header>
+  <div class="info">
+    <button class="burger" aria-label="Открыть меню">
+      <span></span>
+    </button>
+    <div class="logo"><img src="img/logo.svg" alt="Астимед"></div>
+    <div class="adress">
+      <div class="adr">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="light">ул. Мебельная<br>д. 47, корп. 1 лит А
+        </p>
+      </div>
+      <p><i class="fa-solid fa-envelope"></i><span class="blus">astimed.spb@gmail.com</span></p>
+    </div>
+    <div class="number">
+      <p class="ots"><i class="fa-solid fa-mobile-screen-button"></i><span class="blus">
+                8 (812) 983-42-39</span></p>
+      <p class="day"><i class="fa-solid fa-clock"></i><span class="blus">ПН-ПТ</span> 8:00-18:00 <span class="blus">СБ</span> 9:00-15:00</p>
+    </div>
+    <div class="order">
+      <button class="btn"><i class="fa-solid fa-phone"></i>
+        <p>Оставить заявку</p>
+      </button>
+    </div>
+  </div>
+  <nav class="nav header-nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="/index.html" class="nav-link">Главная</a></li>
+      <li class="nav-item">
+        <a href="#" class="nav-link nav-link-drop">Прием в клинике</a>
+        <ul class="nav-list nav-list-dropdown dropdown-list">
+          <li class="dropdown-list-item mobile-back"><a href="" class="dropdown-list-link mobile-back-link">Назад</a></li>
+          <li class="dropdown-list-item"><a href="#" class="dropdown-list-link">Терапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Невролог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Гинеколог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">УЗИ</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Рефлексотерапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Манипуляции</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link nav-link-drop">Вызов на дом</a>
+        <ul class="nav-list nav-list-dropdown dropdown-list">
+          <li class="dropdown-list-item mobile-back"><a href="" class="dropdown-list-link mobile-back-link">Назад</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Терапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Невролог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Гинеколог</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">УЗИ</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Рефлексотерапевт</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Манипуляции</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">СМАД</a></li>
+          <li class="dropdown-list-item"><a href="" class="dropdown-list-link">Холтер</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link">COVID - 19</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Эпиляция и массаж</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Акции</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Цены</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+    </ul>
+    <div class="icon">
+      <a class="pl" id="specialButton" href="#"><i class="far fa-eye fa-2x dark"></i></a>
+      <a class="pl" target="_blank" href="https://wa.me/+78129834239"><i class="fab fa-whatsapp fa-2x dark"></i></a>
+      <a class="pl" target="_blank" href="https://t.me/AstimedSpb"><i class="fab fa-telegram fa-2x dark"></i></a>
+      <a class="pl" target="_blank" href="https://www.google.ru/maps/place/АстиМед/@59.994553,30.194802,17z/data=!3m1!4b1!4m5!3m4!1s0x469637cc9e3b2aa9:0x2cd9efe0640e4c27!8m2!3d59.994553!4d30.1969907"><i class="fas fa-map-marked-alt fa-2x dark"></i></a>
+    </div>
+  </nav>
+</header>
+<div class="container-head">
+  <div class="head-text">
+    <h1>Услуги гинеколога</h1>
+    <p>Гинекология - отрасль медицины, изучающая заболевания, которые характерны только для организма женщины.</p>
+    <p>Гинеколог занимается наблюдением состояния женских половых органов и при наличии заболеваний их лечением в динамике, профилактикой возможных осложнений.
+    </p>
+    <p>Акушер наблюдает в динамике за развитием беременности предпочтительно с малых сроков, следит за состоянием внутренних органов беременной, направляет в стационар на родоразрешение.</p>
+  </div>
+  <img src="img/uslugi/ginec.png" alt="">
+</div>
+<div class="container">
+  <h2>Цены на прием в клинике</h2>
+</div>
+<div class="price-uslugs">
+  <div class="one">
+    <a href="">Первичный прием - 1650₽</a>
+    <img src="img/vector/1.svg" alt="">
+  </div>
+  <div class="two">
+    <a href="">Вторичный прием - 1450₽</a>
+    <img src="img/vector/2.svg" alt="">
+  </div>
+</div>
+<div class="container">
+  <h2>Как понять, что мне нужно к гинекологу?</h2>
+</div>
+<div class="info-uslugs containers">
+  <div class="one-uslugs">
+    <img src="img/uslugi/ginec2.png" alt="">
+  </div>
+  <div class="two-uslugs">
+    <p>Существует ряд симптомов, при которых требуется без промедления записаться к гинекологу:
+    </p>
+    <br>
+    <p>- сбой менструального цикла;</p>
+    <p>- болезненные менструации;</p>
+    <p>- межменструальные кровотечения;</p>
+    <p>- кровянистые выделения во время полового акта;</p>
+    <p>- болезненные ощущения внизу живота и в пояснице;</p>
+    <p>- зуд, отек и покраснение половых органов;</p>
+    <p>- выделения необычного характера из половых органов;</p>
+    <p>- появление образований на наружных половых органах;</p>
+    <p>- обнаружение половых инфекций у партнера.</p>
+  </div>
+</div>
+<div class="container">
+  <h2>Желаете проверить свое здоровье?</h2>
+</div>
+<div class="form-blocks">
+  <div class="form-block-text">
+    <p>Мы с радостью подскажем Вам к какому специалисту обратиться.
+      <br><br>Наши врачи проконсультируют Вас и назначат время приема или приедут на дом
+      <br><br>Заполните форму и мы Вам перезвоним!
+    </p>
+  </div>
+  <div class="form-block">
+    <form action="#" method="post">
+      <ul>
+        <li>
+          <input type="text" placeholder="Ваше имя" id="name" name="user_name">
+        </li>
+        <li>
+          <input type="phone" placeholder="Номер телефона" id="phone" name="user_mail">
+        </li>
+      </ul>
+      <div class="form-text">
+        <li class="form-button">
+          <button class="btn">Оставить заявку</button>
+        </li>
+        <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c
+          <a href="">политикой конфиденциальности</a>
+        </p>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="container">
+  <h2>Как проходит прием у гинеколога на дому?</h2>
+</div>
+<div class="info-uslugs containers">
+  <div class="one-uslugs">
+    <p>Прием гинеколога включает: сбор жалоб, осмотр, предварительную постановку диагноза, назначение обследования и симптоматического лечения.</p>
+    <br><br>
+    <p>В клинике используются все виды лабораторных исследований в гинекологии, среди которых: бактериоскопические, бактериологические, цитологические, гистологические, ДНК-диагностика.
+    </p>
+    <br><br>
+    <p>Специалист владеет методом ультразвуковой диагностики в гинекологии. Кабинеты оснащены ультразвуковым аппаратом. Одномоментный комплексный подход к диагностике, осмотр и ультразвуковое обследование позволяет выявить заболевания на ранней стадии и правильно выбрать метод лечения.</p>
+  </div>
+  <div class="two-uslugs">
+    <img src="img/uslugi/ginec_clinic.png" alt="">
+  </div>
+</div>
+<div class="container">
+  <h2>Основные направления гинеколога</h2>
+</div>
+<div class="osnova-uslugs">
+  <p>Гинекологом проводится осмотр и дается консультация по всем направлениям поликлинической гинекологии, проводятся все современные диагностические исследования и лечебные процедуры:
+  </p>
+  <br>
+  <p>1. Диагностика и лечение заболеваний шейки матки и влагалища;
+  </p>
+  <p>2. Диагностика и лечение воспалительных заболеваний органов малого таза;
+  </p>
+  <p>3. Диагностика и лечение нарушений менструальной функции и нарушений функции репродуктивной системы;
+  </p>
+  <p>4. Предгравидарная подготовка (подготовка к беременности);
+  </p>
+  <p>5. Консультирование по вопросам планирования семьи и подбору современных методов контрацепции;
+  </p>
+  <p>6. Обследование, подготовка и направление для лечения бесплодия с помощью вспомогательных репродуктивных технологий;
+  </p>
+  <p>7. Диагностика и лечение климактерических расстройств;
+  </p>
+  <p>8. Лечение эндометриоза и миомы матки, определение показаний к оперативному лечению.</p>
+</div>
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="img/logo.svg" alt="">
+      <div class="footer-nav">
+        <ul>
+          <li><a href="">Лицензия</a></li>
+          <li><a href="">Политика<br>конфиденциальности</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon">
+        <a class="pl" id="specialButton" href="#"><i class="far fa-eye fa-2x dark"></i></a>
+        <a class="pl" target="_blank" href="https://wa.me/+78129834239"><i class="fab fa-whatsapp fa-2x dark"></i></a>
+        <a class="pl" target="_blank" href="https://t.me/AstimedSpb"><i class="fab fa-telegram fa-2x dark"></i></a>
+        <a class="pl" target="_blank" href="https://www.google.ru/maps/place/АстиМед/@59.994553,30.194802,17z/data=!3m1!4b1!4m5!3m4!1s0x469637cc9e3b2aa9:0x2cd9efe0640e4c27!8m2!3d59.994553!4d30.1969907"><i class="fas fa-map-marked-alt fa-2x dark"></i></a>
+      </div>
+    </div>
+    <div class="footer-link">
+      <ul>
+        <li><a href="">Главная</a></li>
+        <li><a href="">Прием в клинике</a></li>
+        <li><a href="">Вызов на дом</a></li>
+        <li><a href="">COVID - 19</a></li>
+        <li><a href="">Акции</a></li>
+      </ul>
+    </div>
+    <div class="footer-item">
+      <ul>
+        <li class="link-item"><a href="" class="link-active">Цены</a></li>
+        <li><a href="">Гинеколог</a></li>
+        <li><a href="">Терапевт</a></li>
+        <li><a href="">Невролог</a></li>
+        <li><a href="">Вызов на дом</a></li>
+        <li><a href="">Манипуляции</a></li>
+        <li><a href="">Рефлексотерапевт</a></li>
+        <li><a href="">УЗИ</a></li>
+        <li><a href="">СМАД</a></li>
+        <li><a href="">Холтер</a></li>
+      </ul>
+    </div>
+    <div class="footer-contacts">
+      <ul>
+        <li><a href="" class="link-active">Контакты</a></li>
+        <li><a href="">8 (812) 983-42-39</a></li>
+        <li><a href="">8 (812) 926-28-27</a></li>
+      </ul>
+      <p>г. Санкт-Петербург
+        <br>ул. Мебельная
+        <br>д. 47, корп. 1 лит А
+      </p>
+      <a href="" class="mailto">astimed.spb@gmail.com</a>
+    </div>
+  </div>
+  <div class="created">
+    <p>© 2020-2022 ООО МЦ Астимед. Все права защищены. Created by parsons.agency</p>
+    <div class="created-img">
+      <img src="img/created-img.png" alt="">
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body></html>

@@ -268,6 +268,33 @@ header {
     border-radius: 10px;
     position: relative;
 }
+
+.uzi-nadom {
+    width: 94%;
+    height: 215px;
+    background: linear-gradient(135deg, #539FD6 52.79%, #80CAEA 100%);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+
+.priem-clinic {
+    width: 94%;
+    height: 215px;
+    background: linear-gradient(135deg, #F36AC5 52.79%, #F09FD5 100%);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+
+.vizov {
+    width: 94%;
+    height: 215px;
+    background: linear-gradient(135deg, #777B8A 52.79%, #989DAE 100%);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
 .vector2 {
     position: absolute;
     bottom: 1px;
@@ -319,6 +346,8 @@ header {
     font-size: 15px;
     z-index: 100;
 }
+
+
 .actions-block h4 {
     position: absolute;
     right: 20px;
@@ -341,6 +370,27 @@ header {
 }
 .actions-family {
     background: #FFFBDF;
+}
+.actions-pos {
+    background: #CFE5F9;
+}
+
+.actions-holter1 {
+    background: #D6EFFB;
+}
+.actions-holter2 {
+    background: #FFCCCE;
+}
+.actions-holter3 {
+    background: #FFFBDF;
+}
+
+.actions-holter1 p, .actions-holter2 p, .actions-holter3 p {
+    width: 300px!important;
+}
+
+.actions-holter1 h3, .actions-holter2 h3, .actions-holter3 h3 {
+    font-size: 20px!important;
 }
 
 .form-block-text {
@@ -618,7 +668,6 @@ footer {
 
 .container-head img {
     width: 685px;
-    background: #F8EFE9;
     border-radius: 10px;
 }
 
@@ -642,6 +691,8 @@ footer {
     justify-content: space-between;
 }
 
+
+
 .one {
     display: flex;
     padding-left: 20px;
@@ -651,6 +702,7 @@ footer {
     border-radius: 10px;
     align-items: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
 .two {
@@ -662,6 +714,31 @@ footer {
     background: linear-gradient(92.5deg, #FCFCEF 38.79%, #F7F8D5 100%);
     align-items: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.three {
+    display: flex;
+    padding-left: 20px;
+    width: 620px;
+    height: 100px;
+    border-radius: 10px;
+    background: linear-gradient(92.5deg, #EFF4FC 38.79%, #D5E5F8 100%);
+    align-items: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.four {
+    display: flex;
+    padding-left: 20px;
+    width: 620px;
+    height: 100px;
+    border-radius: 10px;
+    background: linear-gradient(92.5deg, #FCEFFB 38.79%, #EFD5F8 100%);
+    align-items: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
 .price-uslugs a, .price-uslugs a:hover {
@@ -676,9 +753,10 @@ footer {
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
-.one img, .two img {
-    margin-top: 20px;
-    padding-left: 20%;
+.one img, .two img, .three img, .four img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .info-uslugs {
@@ -703,4 +781,164 @@ footer {
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
+}
+
+/* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+    display: none
+}
+/* Убираем стандартный маркер Firefox */
+details > summary {
+    list-style: none;
+}
+
+.accordion, .card-body {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.tr {
+    height: 60px;
+    background: #818181;
+    border-radius: 10px;
+}
+
+tr {
+    height: 60px;
+    border-bottom: 1px;
+    border-color: #1A1A1A;
+}
+
+td {
+    text-align: center;
+}
+
+.card-header {
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.card1 {
+    background: linear-gradient(92.5deg, #EFFCF5 38.79%, #D5F8D6 100%);
+}
+
+.card2 {
+    background: linear-gradient(92.5deg, #FCEFFA 38.79%, #F8D5EA 100%);
+}
+
+.card3 {
+    background: linear-gradient(92.5deg, #FCEFFA 38.79%, #F8D5EA 100%);
+}
+
+.card4 {
+    background: linear-gradient(92.5deg, #EFF2FC 38.79%, #D8D5F8 100%);
+}
+
+.card5 {
+    background: linear-gradient(92.5deg, #FCEFEF 38.79%, #F8D5D5 100%);
+}
+
+.plas {
+    width: 620px;
+    height: 200px;
+    border-radius: 10px;
+    background: linear-gradient(108.25deg, #F7F7F7 13.04%, #F7F7F7 110.12%);
+    padding: 20px;
+    margin: 20px;
+}
+
+.plas p {
+    width: 550px;
+}
+
+.plaski {
+    width: 100%;
+    display: flex;
+    justify-content: space-between!important;
+}
+
+.blocks-grid {
+    display: grid;
+    grid-gap: 38px;
+    padding: 45px 100px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "block1 block3"
+        "block2 block3";
+}
+
+.block1 {
+    grid-area: block1;
+    width: 95%;
+    height: 77%;
+    background: linear-gradient(108.25deg, #F7F7F7 13.04%, #F7F7F7 110.12%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.block2 {
+    grid-area: block2;
+    width: 95%;
+    height: 77%;
+    background: linear-gradient(108.25deg, #F7F7F7 13.04%, #F7F7F7 110.12%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.block3 {
+grid-area: block3;
+width: 100%;
+height: 90%;
+    background: linear-gradient(108.25deg, #F7F7F7 13.04%, #F7F7F7 110.12%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mail-contacts {
+    display: flex;
+    align-items: center;
+    width: 299px;
+    height: 107px;
+    background: #DD4B39;
+    color: #fff!important;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.app-contacts {
+    display: flex;
+    align-items: center;
+    width: 299px;
+    height: 107px;
+    background: #128C7E;
+    color: #fff!important;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.gram-contacts {
+    display: flex;
+    align-items: center;
+    width: 299px;
+    height: 107px;
+    background: #0088CC;
+    color: #fff!important;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.mail-contacts:hover, .app-contacts:hover, .gram-contacts:hover {
+    box-shadow: 2px 4px 10px #DD4B39;
+    transition: all .3s;
 }
