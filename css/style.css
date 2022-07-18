@@ -942,3 +942,11 @@ height: 90%;
     box-shadow: 2px 4px 10px #DD4B39;
     transition: all .3s;
 }
+
+.danger img {
+    margin-right: 20px;
+}
+
+.danger {
+    justify-content: left!important;
+}
